@@ -5,6 +5,7 @@
  */
 package sv.edu.uesocc.tpi2019.tester.boundary;
 
+import java.util.Arrays;
 import java.util.List;
 
 import javax.ws.rs.GET;
@@ -19,7 +20,7 @@ import javax.ws.rs.core.MediaType;
 @Path("/test")        
 public class TestResource {
     
- private final List<String> model=List.of("A", "B", "C", "D", "F");
+ private final List<String> model=Arrays.asList("A", "B", "C", "D", "F");
     
  @GET
  @Produces(MediaType.APPLICATION_JSON+";charset=utf-8")

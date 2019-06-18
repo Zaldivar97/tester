@@ -9,4 +9,4 @@ services:
       restart_policy:
         condition: on-failure
     container_name: tpi
-    #env_file: ./constants.env	    
+    env_file: ./constants.env	    

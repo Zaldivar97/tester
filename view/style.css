@@ -1,0 +1,26 @@
+
+body{
+        display:grid;
+        margin:0;
+        height: 100vh;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 4fr 2fr;
+        grid-template-areas: "nav main" "foot foot"
+}
+nav{
+        grid-area:"nav";
+        background-color: red;
+}
+main{
+        grid-area:"main";
+        background-color: #ccc;
+
+}
+
+footer{ 
+        grid-area:"foot";
+        background-color: lightyellow;
+
+}
+
+

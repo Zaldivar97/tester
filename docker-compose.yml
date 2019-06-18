@@ -8,5 +8,5 @@ services:
       replicas: 1
       restart_policy:
         condition: on-failure
-    container_name: tpi
-    env_file: ./constants.env	    
+    #container_name: tpi
+    #env_file: ./constants.env	    
